@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:ueh.edu.vn)",
+      "WebFetch(domain:www.ueh.edu.vn)",
+      "WebFetch(domain:en.ueh.edu.vn)",
+      "WebFetch(domain:fbs.ueh.edu.vn)",
+      "WebFetch(domain:fbe.ueh.edu.vn)"
+    ]
+  }
+}

@@ -2,8 +2,9 @@
 categories: "[[People]]"
 type:
   - "[[Musicians]]"
-created: {{date}}
+created: { { date } }
 ---
+
 ## Albums
 
 ![[Albums.base#Artist]]

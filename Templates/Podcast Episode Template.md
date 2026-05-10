@@ -4,12 +4,12 @@ categories:
 tags:
   - podcast
   - episodes
-show: 
-guests: 
+show:
+guests:
 topics: []
-episode: 
-url: 
-rating: 
-published: 
-last: {{date}}
+episode:
+url:
+rating:
+published:
+last: { { date } }
 ---

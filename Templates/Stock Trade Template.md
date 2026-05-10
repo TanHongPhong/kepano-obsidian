@@ -1,9 +1,9 @@
 ---
-date: {{date}}
-trade: 
+date: { { date } }
+trade:
 tags:
   - investment
   - trade
-price: 
+price:
 shares:
 ---

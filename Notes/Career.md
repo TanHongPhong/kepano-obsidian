@@ -16,20 +16,21 @@ status:
 ## Định Hướng Nghề Nghiệp
 
 ### Core Path (Trục Chính)
+
 - **Vị trí:** Supply Chain Management Trainee / Planning Intern / Operations Analyst
 - **Ngành:** Supply Chain Management, Logistics, Operations Planning
 - **Môi trường:** FMCG, E-commerce, Tech-Logistics
 
 ### Target Companies (Chương trình MT)
 
-| Công ty | Chương trình | Ghi chú |
-|---------|-------------|----------|
-| Unilever | UFLP | Supply Chain MT |
-| P&G | Dream P&G | Operations MT |
-| Shopee | GLP | Tech-Logistics |
-| Nestlé | MT Program | FMCG SCM |
-| Heineken | MT Program | Beverage SCM |
-| Coca-Cola | MT Program | Global SCM |
+| Công ty   | Chương trình | Ghi chú         |
+| --------- | ------------ | --------------- |
+| Unilever  | UFLP         | Supply Chain MT |
+| P&G       | Dream P&G    | Operations MT   |
+| Shopee    | GLP          | Tech-Logistics  |
+| Nestlé    | MT Program   | FMCG SCM        |
+| Heineken  | MT Program   | Beverage SCM    |
+| Coca-Cola | MT Program   | Global SCM      |
 
 ## Unique Selling Point (USP)
 
@@ -45,11 +46,13 @@ Không chỉ biết lập kế hoạch (Planning), mà còn biết xây dựng c
 ## Kỹ Năng Cần Chứng Minh
 
 ### Operations & Planning
+
 - Excel (Advanced)
 - Power BI (Dashboarding)
 - SCM Logic (Inventory, Logistics, Production planning)
 
 ### AI & Automation
+
 - Python/SQL (Phân tích dữ liệu)
 - Claude Code (Build Hermes)
 - Prompt Engineering

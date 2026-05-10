@@ -20,11 +20,13 @@ AI (Artificial Intelligence) - Trí tuệ nhân tạo, tập trung vào các ứ
 ## Các Lĩnh Vực Quan Tâm
 
 ### AI/ML/LLM
+
 - Machine Learning cho dự báo nhu cầu
 - Large Language Models (Claude, GPT, Gemini)
 - Multi-Agent Systems cho tự động hóa vận hành
 
 ### Ứng Dụng Trong SCM
+
 - Tối ưu hóa tồn kho (Inventory Optimization)
 - Dự báo nhu cầu (Demand Forecasting)
 - Lập kế hoạch vận tải (Transportation Planning)
@@ -32,12 +34,12 @@ AI (Artificial Intelligence) - Trí tuệ nhân tạo, tập trung vào các ứ
 
 ## Công Cụ Đang Sử Dụng
 
-| Công cụ | Mục đích |
-|----------|-----------|
+| Công cụ         | Mục đích                                        |
+| --------------- | ----------------------------------------------- |
 | **Claude Code** | Phát triển Hermes, viết code, tư vấn chiến lược |
-| **Gemini API** | Xử lý dữ liệu, research (lưu ý lỗi quota 429) |
-| **Codex** | Coding agent hỗ trợ phát triển |
-| **Antigravity** | Refactor code, build UI |
+| **Gemini API**  | Xử lý dữ liệu, research (lưu ý lỗi quota 429)   |
+| **Codex**       | Coding agent hỗ trợ phát triển                  |
+| **Antigravity** | Refactor code, build UI                         |
 
 ## Liên Kết Dự Án
 

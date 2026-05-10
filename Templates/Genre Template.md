@@ -2,4 +2,5 @@
 tags:
   - genres
 ---
+
 ![[Genre.base]]

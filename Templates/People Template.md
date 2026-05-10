@@ -3,8 +3,9 @@ categories:
   - "[[People]]"
 birthday:
 org: []
-created: {{date}}
+created: { { date } }
 ---
+
 ## Meetings
 
 ![[Meetings.base#Person]]

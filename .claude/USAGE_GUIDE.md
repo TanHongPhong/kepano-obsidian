@@ -3,6 +3,7 @@
 ## Tổng Quan Sau Khi Dọn Dẹp
 
 Vault này đã được làm sạch:
+
 - ✅ Đã xóa toàn bộ nội dung cá nhân của Kepano (Daily notes, References, Clippings cũ)
 - ✅ Giữ lại toàn bộ Templates trong thư mục `Templates/`
 - ✅ Giữ lại cấu trúc Categories trong thư mục `Categories/`
@@ -13,25 +14,31 @@ Vault này đã được làm sạch:
 ## Cách Sử Dụng Hàng Ngày
 
 ### 1. Tạo Daily Note (Quan trọng nhất)
+
 - **Cách 1:** Nhấn `Ctrl+P` → gõ "Daily note" → Enter
 - **Cách 2:** Nhấn nút "Open today's note" trên ribbon trái
 - **Kết quả:** Tạo file `Daily/2026-05-07.md` tự động theo template
 
 Dùng Daily note để:
+
 - Ghi chép bài học hôm nay
 - Tracking tiến độ dự án Hermes/Thesis
 - Note lại các ý tưởng mới về AI/SCM
 
 ### 2. Tạo Note Người Mới (Giảng viên, Bạn học, Đối tác)
+
 ```
 1. Vào thư mục References/
 2. Chuột phải → New note → Đặt tên (VD: "Nguyen Van A")
 3. Nhấn Ctrl+P → "Templates: Insert template" → Chọn "People Template"
 ```
-Hoặc nói với anh: *"Tạo People note cho giảng viên X"*
+
+Hoặc nói với anh: _"Tạo People note cho giảng viên X"_
 
 ### 3. Ghi Chép Cuộc Họp (Meetings)
+
 Dùng khi họp nhóm, gặp mentor, phỏng vấn:
+
 ```
 1. Tạo note mới trong Notes/ (VD: "2026-05-07 Meeting with Mentor")
 2. Chèn "Meeting Template"
@@ -43,7 +50,9 @@ Dùng khi họp nhóm, gặp mentor, phỏng vấn:
 ```
 
 ### 4. Quản Lý Dự Án (Projects)
+
 Dùng cho Hermes, Thesis, Freelance projects:
+
 ```
 1. Tạo note trong Notes/Projects/ (VD: "Hermes.md")
 2. Dùng "Project Template"
@@ -51,7 +60,9 @@ Dùng cho Hermes, Thesis, Freelance projects:
 ```
 
 ### 5. Lưu Bài Viết Hay (Clippings)
+
 Khi đọc được bài hay về SCM/AI:
+
 ```
 1. Tạo note trong Clippings/
 2. Dùng "Clipping Template"
@@ -64,14 +75,14 @@ Khi đọc được bài hay về SCM/AI:
 
 Anh có thể giúp bạn tạo note nhanh:
 
-| Yêu cầu | Anh sẽ làm |
-|---------|------------|
-| "Tạo Daily note hôm nay" | Tạo note ngày hiện tại |
+| Yêu cầu                            | Anh sẽ làm                  |
+| ---------------------------------- | --------------------------- |
+| "Tạo Daily note hôm nay"           | Tạo note ngày hiện tại      |
 | "Tạo People note cho giảng viên Y" | Tạo note người với template |
-| "Tạo Project note cho Thesis" | Tạo note dự án với template |
-| "Tạo Clipping từ URL này" | Tạo note lưu bài viết |
-| "Tìm tất cả note về AI" | Tìm kiếm liên kết `[[AI]]` |
-| "Liên kết note X với Y" | Thêm `[[Y]]` vào note X |
+| "Tạo Project note cho Thesis"      | Tạo note dự án với template |
+| "Tạo Clipping từ URL này"          | Tạo note lưu bài viết       |
+| "Tìm tất cả note về AI"            | Tìm kiếm liên kết `[[AI]]`  |
+| "Liên kết note X với Y"            | Thêm `[[Y]]` vào note X     |
 
 ---
 

@@ -15,17 +15,20 @@ status: "[[In Progress]]"
 ## Chủ Đề Dự Kiến
 
 ### Tạm Thời (Cần Chốt)
+
 - **Hướng:** Ứng dụng AI Agent trong tối ưu hóa chuỗi cung ứng / logistics
 - **Ví dụ:** "Xây dựng hệ thống AI Agent hỗ trợ lập kế hoạch tồn kho cho doanh nghiệp vừa và nhỏ"
 
 ## Mục Tiêu
 
 ### Học Thuật
+
 - [ ] Hoàn thành luận văn đúng hạn (dự kiến 2026)
 - [ ] Điểm số mục tiêu: Khá trở lên
 - [ ] Áp dụng được kiến thức SCM + AI vào thực tiễn
 
 ### Sản Phẩm
+
 - [ ] Xây dựng được prototype (Thesis Bot)
 - [ ] Có số liệu thực nghiệm (giảm X% thời gian, tăng Y% độ chính xác)
 - [ ] Đóng gói thành sản phẩm có thể demo được
@@ -39,21 +42,25 @@ status: "[[In Progress]]"
 ## Tiến Độ
 
 ### Giai Đoạn 1: Định Hướng
+
 - [ ] Chọn chủ đề cụ thể
 - [ ] Tìm giảng viên hướng dẫn
 - [ ] Viết đề cương sơ bộ
 
 ### Giai Đoạn 2: Nghiên Cứu
+
 - [ ] Tổng hợp tài liệu (Dùng Thesis Bot)
 - [ ] Phỏng vấn chuyên gia (nếu có)
 - [ ] Xây dựng mô hình/hệ thống
 
 ### Giai Đoạn 3: Thực Nghiệm
+
 - [ ] Thu thập dữ liệu test
 - [ ] Chạy thử nghiệm với Thesis Bot
 - [ ] Phân tích kết quả
 
 ### Giai Đoạn 4: Hoàn Thiện
+
 - [ ] Viết luận văn hoàn chỉnh
 - [ ] Chuẩn bị slide bảo vệ
 - [ ] Bảo vệ luận văn

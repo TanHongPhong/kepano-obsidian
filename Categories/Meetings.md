@@ -2,4 +2,5 @@
 tags:
   - categories
 ---
+
 ![[Meetings.base]]

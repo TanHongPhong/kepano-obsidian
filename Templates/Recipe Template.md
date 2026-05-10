@@ -7,17 +7,18 @@ ingredients:
 author: []
 url:
 rating:
-created: {{date}}
-last: {{date}}
+created: { { date } }
+last: { { date } }
 ---
+
 ## Ingredients
 
-- 
+-
 
 ## Directions
 
-- 
+-
 
 ## Notes
 
-- 
+-

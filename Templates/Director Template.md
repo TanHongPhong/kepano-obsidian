@@ -3,8 +3,9 @@ categories:
   - "[[People]]"
 type:
   - "[[Directors]]"
-created: {{date}}
+created: { { date } }
 ---
+
 ## Movies
 
 ![[Movies.base#Director]]

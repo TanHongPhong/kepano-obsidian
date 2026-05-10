@@ -26,11 +26,13 @@ status:
 ## Chiến Lược Song Song
 
 ### Career Pillar (Cột Trụ Sự Nghiệp)
+
 - Mục tiêu: MT Programs tại tập đoàn đa quốc gia (Unilever, P&G, Shopee)
 - USP: AI-Enabled Supply Chain Professional
 - Phương pháp: Impact-First, STAR method, Tech-Integration
 
 ### Product Pillar (Cột Trụ Sản Phẩm)
+
 - Mục tiêu: Xây dựng hệ sinh thái AI Agent (Hermes & OpenClaw)
 - Thị trường: Sinh viên & Freelancer (bỏ qua Enterprise giai đoạn đầu)
 - Mô hình: Bán Repo + Skill Pack + Setup Guide (690k VND)
@@ -45,16 +47,19 @@ status:
 ## Checklist Chiến Lược
 
 ### Ngắn Hạn (2026)
+
 - [ ] Hoàn thành luận văn (Thesis)
 - [ ] Launch Hermes MVP 1.0
 - [ ] Nộp đơn các chương trình MT
 
 ### Trung Hạn (2026-2027)
+
 - [ ] Trở thành AI-Enabled SCM Professional
 - [ ] Mở rộng product line (Bot cho SME)
 - [ ] Hoàn thiện Portfolio website
 
 ### Dài Hạn (2027+)
+
 - [ ] Cân nhắc chuyển sang Enterprise (khi có đủ nguồn lực)
 - [ ] Phát triển hệ sinh thái AI Agent hoàn chỉnh
 

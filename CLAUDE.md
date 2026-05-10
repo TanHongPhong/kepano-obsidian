@@ -1,85 +1,85 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+File này cung cấp hướng dẫn cho Claude Code (claude.ai/code) khi làm việc với code trong repository này.
 
-## Project Overview
+## Tổng Quan Dự Án
 
-This is an **Obsidian vault** implementing a "Second Brain" / PARA (Projects-Areas-Resources-Archives) methodology for personal knowledge management. The vault uses the Minimal theme by KEPANO and follows a structured note-taking system with extensive templates.
+Đây là **Obsidian vault** triển khai phương phápology "Second Brain" / PARA (Projects-Areas-Resources-Archives) để quản lý kiến thức cá nhân. Vault sử dụng theme Minimal của KEPANO và theo hệ thống ghi chú có cấu trúc với nhiều template.
 
-## Repository Structure
+## Cấu Trúc Repository
 
 ```
 kepano-obsidian/
-├── .obsidian/           # Obsidian configuration (vault settings)
-│   ├── appearance.json  # Theme configuration (Minimal theme)
-│   ├── community-plugins.json  # Enabled community plugins
-│   ├── core-plugins.json # Enabled core plugins
-│   ├── daily-notes.json # Daily notes configuration
-│   ├── templates.json   # Template settings
-│   ├── workspace.json   # UI layout and pane configuration
-│   └── plugins/         # Community plugin data
-├── Attachments/         # Media and file attachments
-├── Categories/         # Tag/category organization (if used)
-├── Clippings/          # Web clippings and excerpts
+├── .obsidian/           # Cấu hình Obsidian (vault settings)
+│   ├── appearance.json  # Cấu hình theme (Minimal theme)
+│   ├── community-plugins.json  # Community plugins đã bật
+│   ├── core-plugins.json # Core plugins đã bật/tắt
+│   ├── daily-notes.json # Cấu hình daily notes
+│   ├── templates.json   # Cài đặt template
+│   ├── workspace.json   # Cấu hình UI layout và pane
+│   └── plugins/         # Dữ liệu community plugins
+├── Attachments/         # Media và file đính kèm
+├── Categories/         # Tổ chức tag/category
+├── Clippings/          # Web clippings và excerpts
 ├── Daily/              # Daily notes (journal entries)
-├── Notes/              # Main content notes
-│   └── Projects/       # Active project notes
-├── References/         # Reference material and source notes
+├── Notes/              # Notes nội dung chính
+│   └── Projects/       # Notes dự án đang hoạt động
+├── References/         # Tài liệu tham khảo và source notes
 ├── Templates/          # Note templates (50+ templates)
 │   ├── Bases/          # Base template files (.base extensions)
-│   └── *.md            # Individual templates by entity type
+│   └── *.md            # Templates riêng lẻ theo entity type
 └── Templates/          # Template files
 
 ```
 
-## Key Configuration Files
+## Các File Cấu Hình Quan Trọng
 
 - `.obsidian/appearance.json` - Theme: Minimal, Theme mode: system
 - `.obsidian/community-plugins.json` - Plugins: obsidian-hider, obsidian-minimal-settings
 - `.obsidian/daily-notes.json` - Daily notes folder: `Daily/`, template: `Templates/Daily Note Template`
-- `.obsidian/core-plugins.json` - Core plugins enabled/disabled configuration
+- `.obsidian/core-plugins.json` - Cấu hình core plugins enabled/disabled
 - `.obsidian/app.json` - Attachment folder: `Attachments/`, auto-update links enabled
 
-## Template System
+## Hệ Thống Template
 
-The vault uses a comprehensive template system with:
+Vault sử dụng hệ thống template toàn diện với:
 
-- **Base templates** (`.base` files in `Templates/Bases/`) - Reusable template components
-- **Entity templates** - Specific templates for different note types:
+- **Base templates** (`.base` files in `Templates/Bases/`) - Thành phần template có thể tái sử dụng
+- **Entity templates** - Templates cụ thể cho các loại note khác nhau:
   - People, Places, Companies, Books, Movies, etc.
   - Projects, Meetings, Events, Tasks
   - Daily notes, Monthly notes
-  - Various media types (Albums, Podcasts, Recipes, etc.)
+  - Các loại media khác (Albums, Podcasts, Recipes, etc.)
 
-## Notes Organization
+## Tổ Chức Notes
 
-Notes follow a **PARA-inspired** structure:
+Notes theo cấu trúc **PARA-inspired**:
 
-- **Projects** - Active projects in `Notes/Projects/`
-- **Areas** - Life domains (likely in `Notes/`)
-- **Resources** - Reference materials in `References/`
-- **Archives** - Historical items (likely in `Clippings/` or organized folders)
+- **Projects** - Dự án đang hoạt động trong `Notes/Projects/`
+- **Areas** - Life domains (thường trong `Notes/`)
+- **Resources** - Tài liệu tham khảo trong `References/`
+- **Archives** - Items lịch sử (thường trong `Clippings/` hoặc folders có tổ chức)
 
-## Common Development Tasks
+## Các Tác Vụ Phát Triển Thường Gặp
 
-### Modifying Vault Configuration
+### Chỉnh Sửa Vault Configuration
 
-Edit files in `.obsidian/` to change:
+Chỉnh sửa files trong `.obsidian/` để thay đổi:
 
 - Theme settings (`appearance.json`)
 - Core/community plugins (`core-plugins.json`, `community-plugins.json`)
-- Daily notes template and location (`daily-notes.json`)
+- Daily notes template và location (`daily-notes.json`)
 - Attachment folder behavior (`app.json`)
 
-### Adding New Templates
+### Thêm Template Mới
 
-1. Create a new `.md` file in `Templates/` or `Templates/Bases/`
-2. For base templates, use `.base` extension
-3. The template will be available in Obsidian's template picker
+1. Tạo file `.md` mới trong `Templates/` hoặc `Templates/Bases/`
+2. Với base templates, dùng extension `.base`
+3. Template sẽ có sẵn trong Obsidian's template picker
 
-### Modifying Existing Templates
+### Chỉnh Sửa Template Hiện Có
 
-Edit template files directly in `Templates/`. Templates are plain Markdown with frontmatter support.
+Chỉnh sửa template files trực tiếp trong `Templates/`. Templates là plain Markdown với frontmatter support.
 
 ## Obsidian Plugins
 
@@ -89,23 +89,52 @@ File-explorer, global-search, switcher, graph, backlink, tag-pane, page-preview,
 
 ### Community Plugins
 
-- **obsidian-hider** - Hide UI elements for cleaner interface
-- **obsidian-minimal-settings** - Extended Minimal theme configuration
+- **obsidian-hider** - Ẩn các phần tử UI cho interface sạch hơn
+- **obsidian-minimal-settings** - Cài đặt mở rộng cho theme Minimal
 
-## Notes on Editing
+## Ghi Chú Về Chỉnh Sửa
 
-- This is an **Obsidian vault** - not a traditional codebase
-- All files are plain Markdown (`.md`) with optional YAML frontmatter
-- Changes to `.obsidian/` settings sync with Obsidian app automatically
-- Respect existing naming conventions and template structure
-- Templates use `.base` files as reusable components
+- Đây là **Obsidian vault** - không phải codebase truyền thống
+- Tất cả files là plain Markdown (`.md`) với optional YAML frontmatter
+- Thay đổi `.obsidian/` settings đồng bộ với Obsidian app tự động
+- Tôn trọng quy ước đặt tên và cấu trúc template hiện có
+- Templates dùng `.base` files như thành phần có thể tái sử dụng
 
-## File Naming Conventions
+## Claude Code Agents
 
-- Template files: `"Template Name".md` (spaces included)
-- Base templates: `*.base` in `Templates/Bases/`
-- Daily notes: date-based (e.g., `2025-05-10.md`)
+This vault includes a multi-agent system for automated vault maintenance. Agents are defined in `.claude/agents/`.
 
-## Important: No Build/Lint/Test Commands
+**See [`.claude/AGENTS.md`](.claude/AGENTS.md) for complete agent documentation.**
 
-This is a configuration/data repository, not an application. There are no build steps, linters, or tests. Changes are immediately reflected in the Obsidian application.
+### Quick Reference
+
+| Agent              | Skill                 | Purpose                |
+| ------------------ | --------------------- | ---------------------- |
+| Zoe (Orchestrator) | `orchestrator`        | Coordinates all agents |
+| Athena             | `metadata-validation` | Validates frontmatter  |
+| Arachne            | `link-analysis`       | Knowledge graph health |
+| Sage               | `content-analysis`    | AI content review      |
+| Mercury            | `task-management`     | Task tracking          |
+| Janus              | `backup-recovery`     | Git & backup           |
+| Hermes             | `report-generation`   | Daily reports          |
+
+### Usage
+
+```bash
+# Run single agent
+Skill run athena
+Skill run arachne --fix-typos
+
+# Run full orchestrated check
+Skill run orchestrator --full
+```
+
+## Quy Ước Đặt Tên File
+
+- Template files: `"Template Name".md` (giữ spaces)
+- Base templates: `*.base` trong `Templates/Bases/`
+- Daily notes: based on date (ví dụ: `2025-05-10.md`)
+
+## Quan Trọng: Không Có Build/Lint/Test Commands
+
+Đây là repository cấu hình/dữ liệu, không phải ứng dụng. Không có build steps, linters, hoặc tests. Thay đổi được phản ánh ngay lập tức trong ứng dụng Obsidian.

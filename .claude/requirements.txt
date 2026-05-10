@@ -1,0 +1,10 @@
+# Multi-Agent System - Requirements
+# This vault uses Claude Code skills, not standalone Python packages.
+# The demo orchestrator.py uses only Python standard library.
+
+# Optional: If implementing full Python agents with Claude API
+# anthropic>=0.8.0
+# pydantic>=2.0.0
+
+# No external dependencies required for the skill-based architecture.
+# Agents run as Claude Code skills with built-in tools.
